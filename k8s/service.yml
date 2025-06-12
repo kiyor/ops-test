@@ -4,7 +4,7 @@ metadata:
   labels:
     app: ops-test
   name: ops-test
-  namespace: ops-test
+  namespace: infra
 spec:
   ports:
   - port: 80

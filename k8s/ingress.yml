@@ -24,7 +24,7 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
   creationTimestamp: null
   name: ops-test
-  namespace: ops-test
+  namespace: infra
 spec:
   ingressClassName: nginx
   rules:
