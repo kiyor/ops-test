@@ -10,4 +10,4 @@ push:
 
 deploy:
 	@echo "Deploying"
-	kubectl rollout restart deployment/ops-test
+	#kubectl rollout restart deployment/ops-test
