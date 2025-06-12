@@ -1,0 +1,9 @@
+services:
+  ops-test:
+    container_name: ops-test
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    restart: always
